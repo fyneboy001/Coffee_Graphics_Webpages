@@ -12,7 +12,7 @@ const Illustration = () => {
           The best platform where you can get the <br /> customized graphics and
           illustrations
         </p>
-        <button className="h-11 w-[30%] bg-[#FFA500] rounded-3xl mt-7 text-black font-bold">
+        <button className="h-11 w-[30%] bg-[#FFA500] rounded-3xl mt-7 text-black font-bold hover:text-white">
           Buy Now
         </button>
       </div>

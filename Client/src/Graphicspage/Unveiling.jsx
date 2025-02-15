@@ -14,7 +14,10 @@ const Unveil = () => {
           Our Journey in Crafting Visual Wonders, We make <br /> the best
           Graphics and Illustrations
         </p>
-        <button className="h-11 w-[25%] bg-[#FFA500] rounded-3xl mt-7 text-black font-bold">
+        <button
+          className="h-11 w-[25%] bg-[#FFA500] rounded-3xl mt-7 text-black font-bold hover:text-xl 
+        hover:w-[30%] transition-all duration-300"
+        >
           View Our Pricing
         </button>
       </div>

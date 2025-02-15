@@ -13,9 +13,12 @@ function Header() {
         />
         <img className="h-24 mt-9 z-50" src={Logo} alt="Logo" />
 
-        <ul className="flex gap-x-8 ml-auto z-50">
+        <ul className="flex gap-x-8 ml-[45%] z-50 ">
           {links.map((item, index) => (
-            <li key={index}>
+            <li
+              className="hover:text-xl hover:underline transition-all duration-300"
+              key={index}
+            >
               <a href="##">{item}</a>
             </li>
           ))}
