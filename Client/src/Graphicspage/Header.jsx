@@ -5,7 +5,7 @@ function Header() {
   const links = ["Home", "About Us", "Service", "Blog", "Contact"];
   return (
     <>
-      <nav className="flex bg-[#000235] px-[6pc] text-white items-center">
+      <nav className="flex bg-[#000235] px-[6pc] text-white items-center z-50">
         <img
           className="h-68 translate-y-[10pc] transform: translate-x-[-10pc] absolute"
           src={Eclipse}
