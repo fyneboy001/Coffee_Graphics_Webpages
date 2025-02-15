@@ -1,4 +1,4 @@
-import Coffee from "./asset/coffee IMAGE.PNG";
+import Coffee from "./asset/coffeeIMAGE.PNG";
 
 const Discover = () => {
   return (
