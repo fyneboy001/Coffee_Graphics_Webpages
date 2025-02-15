@@ -11,7 +11,7 @@ function App() {
     // </div>
 
     <Router>
-      <nav className="absolute text-white">
+      <nav className="absolute text-white z-50">
         <Link to="/">Coffee</Link>
         <br />
         <Link to="/Graphics">Graphics</Link>

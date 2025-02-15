@@ -14,7 +14,7 @@ const Footer = () => {
       </div>
       <Copyright />
       <img
-        className="absolute translate-y-[-46.7pc] transform: translate-x-[37.1pc]"
+        className="absolute translate-y-[-46.7pc] transform: translate-x-[37.1pc] z-0"
         src={Eclipse}
         alt=""
       />
@@ -52,10 +52,10 @@ const Sitemap = () => {
     <div>
       <h1 className={heading}>Sitemap</h1>
       <p>All our Pages</p>
-      <ul className="list-none pt-6">
+      <ul className="list-none pt-6 z-50">
         {items.map((item, index) => (
           <li key={index}>
-            <a href="##">-{item}</a>
+            <a href="##">- {item}</a>
           </li>
         ))}
       </ul>
@@ -68,7 +68,7 @@ function Contacts() {
   const container = "flex translate-y-[2rem] ml-6 mb-4";
   return (
     <div>
-      <img className="translate-y-[-pc]" src={logo} alt="Logo" />
+      <img className="translate-y-[-pc] z-0" src={logo} alt="Logo" />
       <div className={container}>
         <img className={icon} src={telephone} alt="" />
         <span>(80) 400 2000</span>
